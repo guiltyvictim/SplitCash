@@ -1,6 +1,8 @@
 # SplitCash
 PHP function that divides cash as evenly as possible amongst multiple people, with optional decimal place.
 
+The function returns an array of the resulting values.
+
 ## Function
 
 `array splitMoney (float $amount, int $split [,int $decimals = 2])`
